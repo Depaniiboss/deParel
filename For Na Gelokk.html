@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Special Video</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 40px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;}
+
+    
+     a {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 0;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 10px 20px;
+      background-color: #ff6f91;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #ff3e70;
+    }
+
+    video {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Song For You❤️</h1>
+
+  <video id="myVideo" controls>
+<source src="Seasons.mp4" type="video/mp4"> 
+  </video>
+
+ <a href="Click Here!.html" target="_blank" rel="noopener noreferrer">Click Here!</a>
+
+<script>
+  function playVideo() {
+    const video = document.getElementById('myVideo');
+    video.play();
+  }
+</script>
+
+</body>
+</html>
